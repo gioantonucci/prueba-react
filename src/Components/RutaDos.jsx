@@ -35,12 +35,14 @@ function RutaDos() {
           name="name"
           type="text"
           value={input.name}
+          required
           onChange={(e) => handleChange(e)}
         ></input>
         <label htmlFor="age">Edad</label>
         <input
           name="age"
           id="age"
+          required
           type="number"
           value={input.age}
           onChange={(e) => handleChange(e)}
@@ -49,6 +51,7 @@ function RutaDos() {
         <input
           name="career"
           id="career"
+          required
           type="text"
           value={input.career}
           onChange={(e) => handleChange(e)}
